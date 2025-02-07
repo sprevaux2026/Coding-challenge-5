@@ -46,3 +46,9 @@ let availableInventory = inventory.filter(quantity => quantity > 0); //Remove pr
 
 console.log("Available Inventory:", availableInventory);
 
+// Task 6: Reduce Method - Revenue Calculation
+let sales = [999, 888, 777, 555];
+let totalRevenue = sales.reduce((total, sale) => total + sale, 0); // Calculate total revenue
+
+console.log("Total Revenue:", totalRevenue);
+
