@@ -52,3 +52,8 @@ let totalRevenue = sales.reduce((total, sale) => total + sale, 0); // Calculate 
 
 console.log("Total Revenue:", totalRevenue);
 
+// Task 7: find() Method - Customer Search
+let customers = ["Ben Ten", "Uncle Sam", "john Cena", "Walter White"];
+let foundCustomer = customers.find(customer => customer === "Uncle Sam"); // Find a specific customer
+
+console.log("Found Customer:", foundCustomer);
