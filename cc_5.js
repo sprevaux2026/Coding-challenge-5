@@ -33,3 +33,9 @@ cartItems.unshift("Pear"); // Add a new product at the beginning
 cartItems.shift();  // Remove the first product
 
 console.log("Final Shopping Cart:", cartItems);
+
+// Task 4: Map Method - Price Adjustments
+let prices = [199, 299, 399];
+let discountedPrices = prices.map(price => price * 0.9); // applying a 10% discount
+
+console.log("Discounted Prices:", discountedPrices);
