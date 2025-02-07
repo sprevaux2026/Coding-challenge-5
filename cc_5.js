@@ -22,3 +22,14 @@ let order = {
 
 // Call the method to display order details
 order.displayOrder();
+
+
+// Task 3: Array Manipulation - Shopping Cart
+let cartItems = ["Apple", "Orange", "Plum"]; // initial products
+
+cartItems.push("Grape-Fruit");   // Add a new product at the end
+cartItems.pop();    // Remove the last product
+cartItems.unshift("Pear"); // Add a new product at the beginning
+cartItems.shift();  // Remove the first product
+
+console.log("Final Shopping Cart:", cartItems);
