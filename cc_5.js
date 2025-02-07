@@ -57,3 +57,12 @@ let customers = ["Ben Ten", "Uncle Sam", "john Cena", "Walter White"];
 let foundCustomer = customers.find(customer => customer === "Uncle Sam"); // Find a specific customer
 
 console.log("Found Customer:", foundCustomer);
+
+// Task 8: Function Declaration - Tax Calculation
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+
+let taxAmount = calculateTax(500, 0.07); // Calculate a $500 purchase with 7% tax
+console.log(`Calculated Tax: $${taxAmount.toFixed(2)}`);
+
